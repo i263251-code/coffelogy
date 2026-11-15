@@ -4,32 +4,59 @@
 **Roll No:** 26i-3251  
 **Section:** E
 
-Coffelogy is a four-page coffee website made with HTML, CSS and JavaScript. It keeps the original Coffelogy name and coffee-shop style while adding interactive features.
+# Coffelogy – Lab 12
 
-## Pages
-1. `index.html` — Home page and featured drinks.
-2. `menu.html` — Menu search, category filters and a demo shopping cart.
-3. `discover.html` — Three-step coffee personality quiz.
-4. `about.html` — About section and a front-end contact form demo.
+**Student Name:** Muhammad Bilal  
+**Roll Number:** 26i-3251  
+**Section:** E  
 
-## Interactive features
-- Mobile navigation menu.
-- Dark and light theme saved in local storage.
-- Menu search and category filters.
-- Shopping cart with quantity, remove and total features.
-- Coffee quiz with recommendations.
-- Contact form confirmation (demo only).
+## Project Description
 
-## Files
-- `style.css` contains the shared website design.
-- `script.js` contains the interactive JavaScript.
-- `images/` should contain the original Coffelogy logo and coffee image.
+Coffelogy is a coffee shop website developed using HTML, CSS, and JavaScript. It is an extension of my Lab 11 project, with a modern design and interactive features.
 
-## Run locally
-Open `index.html` in a browser. Keep the `images` folder in the same project directory.
+## Website Pages
 
-**Note:** The cart and contact form are front-end demonstrations. They do not process payments or send messages to a real inbox.
+1. **Home:** Introduces Coffelogy and displays featured coffee.
+2. **Our Menu:** Displays coffee and treats with search, category filters, and a shopping cart.
+3. **Find Your Coffee:** Provides a short quiz that recommends coffee based on user preferences.
+4. **About & Contact:** Provides information about Coffelogy and includes a contact form.
 
-## Links
-- GitHub repository: ADD YOUR REPOSITORY LINK
-- Live website: ADD YOUR GITHUB PAGES LINK
+## Features
+
+- Modern and responsive design
+- Four connected website pages
+- Light and dark theme
+- Interactive coffee menu
+- Menu search and category filters
+- Shopping cart with live total
+- Coffee recommendation quiz
+- Contact form with confirmation message
+- Keyboard accessibility improvements
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+- GitHub Pages
+
+## Project Links
+
+**GitHub Repository:**  
+https://github.com/i263251-code/coffelogy
+
+**Live Website:**  
+https://i263251-code.github.io/coffelogy/
+
+## How to Run
+
+1. Download or clone the repository.
+2. Open the project folder.
+3. Open `index.html` in a web browser.
+4. Use the navigation menu to explore all four pages.
+
+## Note
+
+The shopping cart and contact form are demonstrations. The cart does not process real payments, and the contact form does not send actual emails.
+
