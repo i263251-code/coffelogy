@@ -1,8 +1,3 @@
-# Coffelogy — Lab 12
-
-**Student:** Muhammad Bilal  
-**Roll No:** 26i-3251  
-**Section:** E
 
 # Coffelogy – Lab 12
 
