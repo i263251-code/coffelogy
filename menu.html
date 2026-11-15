@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffelogy | Our Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="index.html"><img src="images/coffee logo.webp" alt="Coffelogy logo"><span>Coffelogy</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links"><a href="index.html">Home</a><a class="active" href="menu.html">Our Menu</a><a href="discover.html">Find Your Coffee</a><a href="about.html">About & Contact</a></nav>
+    <div class="header-actions"><button class="icon-button theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">☾</button><a class="cart-link" href="#your-order">Order <span class="cart-count">0</span></a></div>
+</header>
+
+<main class="page-main">
+    <section class="page-intro"><p class="eyebrow">MADE TO MATCH YOUR MOOD</p><h1>Our <em>menu.</em></h1><p>From familiar favourites to little treats, find something you'll love.</p></section>
+    <section class="menu-tools">
+        <input type="search" id="menu-search" placeholder="Search the menu..." aria-label="Search menu">
+        <div class="filter-buttons" aria-label="Filter menu">
+            <button class="filter-button selected" data-filter="all">All</button>
+            <button class="filter-button" data-filter="hot">Hot coffee</button>
+            <button class="filter-button" data-filter="cold">Cold coffee</button>
+            <button class="filter-button" data-filter="treat">Treats</button>
+        </div>
+    </section>
+    <section class="menu-grid" id="menu-grid">
+        <article class="menu-card" data-category="hot" data-name="espresso"><div class="product-art art-espresso">☕</div><div class="menu-card-info"><div><span class="card-tag">HOT COFFEE</span><h3>Espresso</h3><p>Rich, bold and simple.</p></div><strong>Rs. 250</strong></div><button class="add-button" data-name="Espresso" data-price="250">Add to order +</button></article>
+        <article class="menu-card" data-category="hot" data-name="cappuccino"><div class="product-art art-cappuccino">☕</div><div class="menu-card-info"><div><span class="card-tag">HOT COFFEE</span><h3>Cappuccino</h3><p>Espresso with silky milk foam.</p></div><strong>Rs. 350</strong></div><button class="add-button" data-name="Cappuccino" data-price="350">Add to order +</button></article>
+        <article class="menu-card" data-category="hot" data-name="mocha"><div class="product-art art-mocha">🍫</div><div class="menu-card-info"><div><span class="card-tag">HOT COFFEE</span><h3>Mocha</h3><p>Coffee meets chocolate.</p></div><strong>Rs. 450</strong></div><button class="add-button" data-name="Mocha" data-price="450">Add to order +</button></article>
+        <article class="menu-card" data-category="cold" data-name="iced latte"><div class="product-art art-iced">🧊</div><div class="menu-card-info"><div><span class="card-tag">COLD COFFEE</span><h3>Iced Latte</h3><p>Chilled, creamy and refreshing.</p></div><strong>Rs. 400</strong></div><button class="add-button" data-name="Iced Latte" data-price="400">Add to order +</button></article>
+        <article class="menu-card" data-category="cold" data-name="cold brew"><div class="product-art art-coldbrew">🥤</div><div class="menu-card-info"><div><span class="card-tag">COLD COFFEE</span><h3>Cold Brew</h3><p>Slow brewed and smooth.</p></div><strong>Rs. 380</strong></div><button class="add-button" data-name="Cold Brew" data-price="380">Add to order +</button></article>
+        <article class="menu-card" data-category="treat" data-name="brownie"><div class="product-art art-brownie">🍰</div><div class="menu-card-info"><div><span class="card-tag">SWEET TREAT</span><h3>Chocolate Brownie</h3><p>A soft chocolatey bite.</p></div><strong>Rs. 220</strong></div><button class="add-button" data-name="Chocolate Brownie" data-price="220">Add to order +</button></article>
+    </section>
+    <section class="order-panel" id="your-order">
+        <div class="section-heading"><div><p class="eyebrow">YOUR PICKS</p><h2>Your <em>order.</em></h2></div><button class="clear-button" id="clear-cart">Clear order</button></div>
+        <div id="cart-items" class="cart-items"><p class="empty-cart">Your order is empty. Add something from the menu!</p></div>
+        <div class="cart-total"><span>Total</span><strong id="cart-total">Rs. 0</strong></div>
+        <p class="small-note">Demo order only — no payment or real booking is made.</p>
+    </section>
+</main>
+<footer class="site-footer"><span>© 2026 Coffelogy</span><span>Made for coffee moments.</span><a href="about.html">Get in touch ↗</a></footer>
+</body>
+</html>

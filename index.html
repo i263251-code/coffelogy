@@ -1,56 +1,63 @@
-<!-- Name: Muhammad Bilal -->
-<!-- Roll No: 26i-3251 -->
-<!-- Section: E -->
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Coffelogy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffelogy | Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-<img src="images/coffee logo.webp" alt="Logo" class="logo">
+<header class="site-header">
+    <a class="brand" href="index.html"><img src="images/coffee logo.webp" alt="Coffelogy logo"><span>Coffelogy</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="menu.html">Our Menu</a>
+        <a href="discover.html">Find Your Coffee</a>
+        <a href="about.html">About & Contact</a>
+    </nav>
+    <div class="header-actions">
+        <button class="icon-button theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">☾</button>
+        <a class="cart-link" href="menu.html">Order <span class="cart-count">0</span></a>
+    </div>
+</header>
 
-    <h1>Welcome to Coffelogy</h1>
+<main>
+    <section class="hero">
+        <div class="hero-copy">
+            <p class="eyebrow">A LITTLE MOMENT FOR YOURSELF</p>
+            <h1>Good days start<br>with <em>good coffee.</em></h1>
+            <p class="hero-description">Your daily dose of happiness in every cup. Find your favourite blend, discover a new taste, and make your coffee break count.</p>
+            <div class="hero-buttons">
+                <a class="button button-dark" href="menu.html">Explore the menu <span>↗</span></a>
+                <a class="text-link" href="discover.html">Find my coffee</a>
+            </div>
+            <div class="hero-note"><span class="note-dot"></span> Freshly made. Happily served.</div>
+        </div>
+        <div class="hero-image-wrap">
+            <img class="hero-image" src="images/coffee page.jpg" alt="A freshly prepared cup of coffee">
+            <div class="image-sticker">BREW<br>YOUR<br>DAY</div>
+        </div>
+    </section>
 
-    <p>Your daily dose of happiness in every cup.</p>
+    <section class="section featured-section">
+        <div class="section-heading">
+            <div><p class="eyebrow">THE CROWD FAVOURITES</p><h2>A few good <em>things.</em></h2></div>
+            <a class="text-link" href="menu.html">View full menu ↗</a>
+        </div>
+        <div class="feature-grid">
+            <article class="feature-card"><div class="feature-icon">☕</div><p class="card-tag">CLASSIC</p><h3>Cappuccino</h3><p>Espresso, steamed milk and a soft layer of foam.</p><strong>Rs. 350</strong></article>
+            <article class="feature-card"><div class="feature-icon">🍫</div><p class="card-tag">CHOCOLATE LOVER</p><h3>Mocha</h3><p>A smooth coffee blend with a chocolate twist.</p><strong>Rs. 450</strong></article>
+            <article class="feature-card"><div class="feature-icon">🧊</div><p class="card-tag">COOL & REFRESHING</p><h3>Iced Latte</h3><p>Chilled milk and espresso over ice.</p><strong>Rs. 400</strong></article>
+        </div>
+    </section>
 
-   <img src="images/coffee page.jpg" alt="Coffee" class="coffee">
-
-    <br>
-
-   <button>
-    Explore the Menu
-</button>
-
-<table>
-    <tr>
-        <th>Item</th>
-        <th>Price</th>
-    </tr>
-
-    <tr>
-        <td>Espresso</td>
-        <td>Rs. 250</td>
-    </tr>
-
-    <tr>
-        <td>Cappuccino</td>
-        <td>Rs. 350</td>
-    </tr>
-
-    <tr>
-        <td>Latte</td>
-        <td>Rs. 400</td>
-    </tr>
-
-    <tr>
-        <td>Mocha</td>
-        <td>Rs. 450</td>
-    </tr>
-</table>
-
+    <section class="wide-callout">
+        <div><p class="eyebrow">NOT SURE WHAT TO ORDER?</p><h2>There is a coffee<br>for every <em>mood.</em></h2></div>
+        <a class="button button-light" href="discover.html">Take the coffee quiz ↗</a>
+    </section>
+</main>
+<footer class="site-footer"><span>© 2026 Coffelogy</span><span>Made for coffee moments.</span><a href="about.html">Get in touch ↗</a></footer>
 </body>
 </html>

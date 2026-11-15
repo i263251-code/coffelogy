@@ -1,0 +1,15 @@
+IMPORTANT: KEEP YOUR EXISTING .git FOLDER.
+
+1. Extract this ZIP.
+2. Open your already-cloned coffelogy repository folder.
+3. Copy the four HTML files, style.css, script.js, README.md and E_26i-3251_Lab12.txt into that folder.
+4. If Windows asks whether to replace existing index.html, choose Replace. Do not delete the .git folder.
+5. Keep your existing images folder and make sure it contains:
+   - coffee logo.webp
+   - coffee page.jpg
+6. Open index.html in Chrome and test all four pages.
+7. Test the menu search, category filters, Add to order, remove, clear order, dark mode, coffee quiz and contact form.
+8. The contact form is a demo and does not send email. The cart does not take payment.
+9. Add real screenshots of your AI prompts to prompts.docx. The document must show your actual prompts and screenshots; do not submit invented screenshots.
+10. Replace the placeholder links in README.md and E_26i-3251_Lab12.txt with your actual GitHub and GitHub Pages URLs.
+11. In GitHub Desktop, review Changes before committing. Keep the .git folder untouched.

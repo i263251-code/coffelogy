@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffelogy | Find Your Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <a class="brand" href="index.html"><img src="images/coffee logo.webp" alt="Coffelogy logo"><span>Coffelogy</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links"><a href="index.html">Home</a><a href="menu.html">Our Menu</a><a class="active" href="discover.html">Find Your Coffee</a><a href="about.html">About & Contact</a></nav>
+    <div class="header-actions"><button class="icon-button theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">☾</button><a class="cart-link" href="menu.html#your-order">Order <span class="cart-count">0</span></a></div>
+</header>
+
+<main class="page-main">
+    <section class="page-intro"><p class="eyebrow">A SMALL QUIZ, A NEW FAVOURITE</p><h1>Find your <em>coffee.</em></h1><p>Choose what sounds good today. We'll help you find your match.</p></section>
+    <section class="quiz-layout">
+        <div class="quiz-card">
+            <div class="quiz-progress"><span id="quiz-progress-text">QUESTION 1 OF 3</span><div class="progress-track"><span id="quiz-progress-bar"></span></div></div>
+            <div class="quiz-question active" data-step="1"><p class="eyebrow">01 — YOUR ENERGY</p><h2>How strong do you like your coffee?</h2><div class="choice-grid"><button class="choice-button" data-group="strength" data-value="strong">Bold & strong</button><button class="choice-button" data-group="strength" data-value="balanced">Smooth & balanced</button><button class="choice-button" data-group="strength" data-value="mild">Light & gentle</button></div></div>
+            <div class="quiz-question" data-step="2"><p class="eyebrow">02 — YOUR FLAVOUR</p><h2>What flavour are you in the mood for?</h2><div class="choice-grid"><button class="choice-button" data-group="flavour" data-value="chocolate">Chocolate</button><button class="choice-button" data-group="flavour" data-value="classic">Classic coffee</button><button class="choice-button" data-group="flavour" data-value="fresh">Fresh & refreshing</button></div></div>
+            <div class="quiz-question" data-step="3"><p class="eyebrow">03 — YOUR STYLE</p><h2>How do you take your coffee?</h2><div class="choice-grid"><button class="choice-button" data-group="style" data-value="milk">With milk</button><button class="choice-button" data-group="style" data-value="black">Black</button><button class="choice-button" data-group="style" data-value="iced">Over ice</button></div></div>
+            <div class="quiz-controls"><button class="clear-button" id="quiz-back" disabled>← Back</button><button class="button button-dark" id="quiz-next" disabled>Next question →</button></div>
+        </div>
+        <aside class="quiz-aside"><div class="aside-symbol">☕</div><p class="eyebrow">COFFEE BREAK THOUGHT</p><h3>“A good cup can make an ordinary moment feel special.”</h3><p>There are no wrong answers. Just find what you enjoy.</p></aside>
+    </section>
+    <section class="result-card hidden" id="quiz-result" aria-live="polite"><p class="eyebrow">YOUR COFFELOGY MATCH</p><div class="result-icon" id="result-icon">☕</div><h2 id="result-name">Cappuccino</h2><p id="result-description"></p><div class="result-actions"><a class="button button-dark" href="menu.html">See the menu ↗</a><button class="clear-button" id="quiz-restart">Try again</button></div></section>
+</main>
+<footer class="site-footer"><span>© 2026 Coffelogy</span><span>Made for coffee moments.</span><a href="about.html">Get in touch ↗</a></footer>
+</body>
+</html>
