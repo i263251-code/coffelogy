@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
 
+
 :root {
     --bg: #f7f1e8;
     --surface: #fffaf3;
@@ -174,4 +175,10 @@ h1 em, h2 em { color: var(--accent); font-weight: 500; }
     .story-image img { height: 260px; }
     .contact-section { padding: 25px; gap: 25px; }
     .result-actions { flex-direction: column; }
+}
+/* Manual improvement: keyboard accessibility */
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #b7793e;
+    outline-offset: 4px;
 }
